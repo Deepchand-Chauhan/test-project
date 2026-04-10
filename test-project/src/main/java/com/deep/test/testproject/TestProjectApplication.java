@@ -10,6 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestProjectApplication {
     Logger LOGGER  = LoggerFactory.getLogger(TestProjectApplication.class);
 
+    public void init(){
+        LOGGER.info("Project started");
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(TestProjectApplication.class, args);
