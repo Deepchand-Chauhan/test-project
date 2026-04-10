@@ -11,7 +11,7 @@
     <groupId>com.deep.test</groupId>
     <artifactId>test-project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>test-project</name>
     <description>test-project</description>
     <url/>
