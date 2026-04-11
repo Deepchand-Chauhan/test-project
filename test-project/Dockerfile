@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk-jammy
 EXPOSE 8080
 WORKDIR /app
 ADD target/test-project-0.0.1-SNAPSHOT.jar test-project-0.0.1.jar
